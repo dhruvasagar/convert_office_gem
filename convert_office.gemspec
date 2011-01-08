@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency('rspec')
 
-  s.files       = Dir.glob('lib/**/*') +  %w(LICENCE README.rdoc Rakefile)
+  s.files       = Dir.glob('lib/**/*') +  %w(LICENCE README.rdoc Rakefile) + ['java/convert_office.jar']
   s.require_path= 'lib'
 end

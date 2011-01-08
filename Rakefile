@@ -13,7 +13,7 @@ task :build do
 end
 
 task :install => :build do
-  system "sudo gem install convert_office-#{ConvertOffice::VERSION}"
+  system "gem install convert_office-#{ConvertOffice::VERSION}"
 end
 
 task :release => :build do
